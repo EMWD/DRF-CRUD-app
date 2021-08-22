@@ -1,2 +1,3 @@
 venv/
 .vscode
+drf_proj/db.sqlite3
