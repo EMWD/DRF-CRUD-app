@@ -3,7 +3,7 @@ from .models import Article
 
 
 class ArticleSerializer(serializers.Serializer):
-    title = serializers.CharField(max_length=120)
+    title = serializers.CharField(max_length=200)
     description = serializers.CharField()
     body = serializers.CharField()
     author_id = serializers.IntegerField()
